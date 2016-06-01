@@ -3,8 +3,8 @@ Sklearn implementation of GBM to predict mu(X) and std(X) on heteroscedastic
 data.
 
 The traditional application of GBM is to predict y_hat(X) using an additive
-ensemble of decision trees, minimizing squared loss on known true observations
-y(X).
+ensemble of decision trees, minimizing squared error loss on known true
+observations y(X).
 
 In uncertainty-GBM, we assume the data is heteroscedastic, meaning that the
 variance of the observed values y(X) is not constant everywhere, but rather is
