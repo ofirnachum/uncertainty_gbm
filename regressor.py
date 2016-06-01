@@ -1,5 +1,7 @@
 __doc__ = """Gradient Boosted Regression Trees for heteroscedastic data."""
 
+import loss
+
 from sklearn.ensemble import gradient_boosting
 
 class UncertaintyGBM(gradient_boosting.BaseGradientBoosting):

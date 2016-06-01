@@ -15,3 +15,13 @@ std(X).  Thus, the GBM predicts both mu_hat(X) and std_hat(X) to minimize
 negative log-likelihood (NLL).
 
 See dummy_demo.py for a demonstration of the model on constructed data.
+
+See boston_demo.py for a demonstration of the model on Boston real estate data.
+On the generated plots, note the relationship between the predicted y and the
+true y in the high-risk/high-reward and low-risk/low-reward settings.  The
+high-risk/high-reward setting successfully pushes the most of the below-average
+true examples to the bottom.  However, some very low true examples receive
+disproportionally high scores.  On the other hand, the low-risk/low-reward
+setting successfully pushes the above-average true examples to the top.
+However, at the top, there is little observed relationship between especially
+high true examples and simply above-average true examples.
