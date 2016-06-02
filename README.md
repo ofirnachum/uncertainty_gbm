@@ -17,8 +17,11 @@ negative log-likelihood (NLL).
 See dummy_demo.py for a demonstration of the model on constructed data.
 
 See simple_demo.py for a demonstration of the model on slightly more
-sophisticated constructed data.  This demo also provides a visual plot to
-see how the model's predictions match the true generation of the data.
+sophisticated constructed data as well as a comparison with GBM trained to
+optimize quantile loss.  This demo also provides a visual plot to see how the
+model's predictions match the true generation of the data.  Note how
+uncertainty-GBM's predictions are much smoother than that of the GBM trained on
+quantile loss, especially in the areas with high variance.
 
 ![alt tag](https://github.com/ofirnachum/uncertainty_gbm/blob/master/simple_demo.png)
 
