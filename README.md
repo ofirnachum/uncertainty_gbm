@@ -16,6 +16,12 @@ negative log-likelihood (NLL).
 
 See dummy_demo.py for a demonstration of the model on constructed data.
 
+See simple_demo.py for a demonstration of the model on slightly more
+sophisticated constructed data.  This demo also provides a visual plot to
+see how the model's predictions match the true generation of the data.
+
+![alt tag](https://github.com/ofirnachum/uncertainty_gbm/blob/master/simple_demo.png)
+
 See boston_demo.py for a demonstration of the model on Boston real estate data.
 On the generated plots, note the relationship between the predicted y and the
 true y in the high-risk/high-reward and low-risk/low-reward settings.  The
