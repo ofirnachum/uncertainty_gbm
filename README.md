@@ -25,3 +25,5 @@ disproportionally high scores.  On the other hand, the low-risk/low-reward
 setting successfully pushes the above-average true examples to the top.
 However, at the top, there is little observed relationship between especially
 high true examples and simply above-average true examples.
+
+![alt tag](https://github.com/ofirnachum/uncertainty_gbm/blob/master/boston_demo.png)
